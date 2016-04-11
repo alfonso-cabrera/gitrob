@@ -544,5 +544,12 @@
     "pattern": "terraform.tfvars",
     "caption": "Terraform variable config file",
     "description": "Might contain credentials for terraform providers"
+  },
+  {
+    "part": "filename",
+    "type": "match",
+    "pattern": "terraform.tfstate",
+    "caption": "Terraform infrastructure state file",
+    "description": "Might contain sensitive infrastructure info & credentials for terraform providers"
   }
 ]
